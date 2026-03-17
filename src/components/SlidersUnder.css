@@ -1,0 +1,31 @@
+.pfp-sliders-under {
+  box-sizing: border-box;
+  position: absolute;
+  width: 260px;
+  height: 229px;
+  left: 120px;
+  top: 428px;
+  border-radius: 10px;
+  border: black solid 1px;
+  background-color: white;
+  padding: 15px;
+}
+
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.slider-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slider-container input {
+  width: 100%;
+}
+
+.slider-container span {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}

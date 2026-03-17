@@ -1,0 +1,12 @@
+.pfp-description {
+  box-sizing: border-box;
+  position: absolute;
+  width: 882px;
+  height: 271px;
+  left: 438px;
+  top: 79px;
+  border-radius: 10px;
+  border: black solid 1px;
+  background-color: white;
+  padding: 20px;
+}

@@ -1,0 +1,42 @@
+.contfor-table {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1084px;
+  height: 627px;
+  left: 178px;
+  top: 1389px;
+  border-radius: 10px;
+  border: black solid 1px;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contfor-table h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.tabulator {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tabulator .tabulator-header {
+  background-color: #5E3E9F;
+  color: white;
+}
+
+.tabulator .tabulator-row {
+  border-bottom: 1px solid #eee;
+}
+
+.tabulator .tabulator-row.tabulator-row-even {
+  background-color: #f9f9f9;
+}
+
+.tabulator .tabulator-row:hover {
+  background-color: #e6e6e6;
+}
