@@ -86,7 +86,7 @@ useEffect(() => {
 {
   "id": "getUserData_1234567890",
   "action": "getUserData",
-  "token": "user_token_here",  // опционально
+  "token": "user_token_here", 
   "data": {}
 }
 ```
@@ -110,32 +110,4 @@ useEffect(() => {
   "ok": false,
   "error": "Описание ошибки"
 }
-```
-
-## Альтернативный вариант с REST API (api.js)
-
-Если используется HTTP вместо WebSocket:
-
-```javascript
-// Запрос данных
-async getUserData(token) {
-  return this.sendRequest({
-    id: 'getUserData',
-    action: 'getUserData',
-    token: token,
-    data: JSON.stringify({})
-  });
-}
-
-// Обработка в компоненте
-const fetchUserData = async () => {
-  try {
-    const response = await api.getUserData(token);
-    if (response.ok) {
-      setUserData(response.result);
-    }
-  } catch (error) {
-    console.error('Failed to fetch user data:', error);
-  }
-};
 ```
